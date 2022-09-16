@@ -12,9 +12,17 @@ export const Home = () => {
       id: 3,
     },
   ]);
+
+const handleDelete=(id)=>{
+    const newBlogs=blogs.filter(blog=>blog.id !== id)
+    setBlogs(newBlogs)
+    console.log("hii")
+}
+
   return (
     <div className="home">
-     <Bloglist blogs={blogs} /> 
+     <Bloglist blogs={blogs} title={"All Blogs!"} handleDelete={handleDelete} />
+    
     </div>
   );
 };
