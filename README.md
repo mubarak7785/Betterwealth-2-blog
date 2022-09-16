@@ -4,7 +4,7 @@ HOW TO RUN PROJECT
 
 $ Open GitBash
 
-$ git clone https://github.com/mubarak7785/Better-wealth.git
+$ git clone https://github.com/mubarak7785/Betterwealth-2-blog.git
 
 $ npm install
 
