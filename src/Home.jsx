@@ -3,7 +3,7 @@ import Bloglist from "./Bloglist";
 import useFetch from "./useFetch";
 
 export const Home = () => {
-  const { error, isPending, data: blogs } = useFetch('http://localhost:8000/blogs')
+  const { error, isPending, data: blogs } = useFetch('https://jsonblogapi.herokuapp.com/blogs')
 
   return (
     <div className="home">
